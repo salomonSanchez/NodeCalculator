@@ -22,3 +22,4 @@ console.log('La suma 3 da: ' + require('./calculardora').suma3(7,7));
 
 //division
 console.log('La division  da: ' + require('./calculardora').dividir(7,7));
+console.log('resta: ' + require('./calculardora').restar(10,7));
