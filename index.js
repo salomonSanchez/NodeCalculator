@@ -19,3 +19,6 @@ server.listen(port, hostname, () => {
 var suma3 = require('./calculardora');
 console.log('La suma 3 da: ' + suma3.suma3(6,6));
 console.log('La suma 3 da: ' + require('./calculardora').suma3(7,7));
+
+//division
+console.log('La division  da: ' + require('./calculardora').dividir(7,7));
