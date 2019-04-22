@@ -16,12 +16,18 @@ server.listen(port, hostname, () => {
 });
  */
 
-var suma3 = require('./calculardora');
-console.log('La suma 3 da: ' + suma3.suma3(6,6));
+var op = require('./calculardora');
+console.log('La suma 3 da: ' + op.suma3(6,6));
 console.log('La suma 3 da: ' + require('./calculardora').suma3(7,7));
 
 //division
 console.log('La division  da: ' + require('./calculardora').dividir(7,7));
 console.log('resta: ' + require('./calculardora').restar(10,7));
 
-//agregar
+//sumar y restar varios numeros
+console.log('suma cuatro numeros:' + op.sumarVariosNumeros(4,4,4,4));
+console.log('resta cuatro numeros:' + op.restarVariosNumeros(16,4,4,4));
+/**
+ * //conversor de grados c° a F°
+console.log('conversor de grados c° a F°:' + op.calcularGrados(30));
+ */
