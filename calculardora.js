@@ -20,3 +20,10 @@ module.exports.dividir = function (valor1, valor2){
 function mostrarErrorDivision() {
     console.log('No se puede dividir por cero');
   }
+// convertir kg a gramos  en monedas
+
+module.exports.convertidor = function(kg){
+    var gramos = kg/1000;
+    return gramos;
+}
+
