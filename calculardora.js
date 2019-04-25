@@ -38,3 +38,8 @@ var fahrenheit = (celsius * (9/5)) +32;
  return fahrenheit;
 }
  */
+//convertir moneda dolares a soles
+module.exports.calculrMoneda = function(dolares){
+    var soles = (dolares * (33/10));
+    return soles;
+    }

@@ -31,3 +31,5 @@ console.log('resta cuatro numeros:' + op.restarVariosNumeros(16,4,4,4));
  * //conversor de grados c° a F°
 console.log('conversor de grados c° a F°:' + op.calcularGrados(30));
  */
+//calcular moneda
+console.log('conversor de monedas $ a soles: '+ op.calculrMoneda(1));
